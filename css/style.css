@@ -1,0 +1,41 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: lightsteelblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tempTitle {
+  color: darkslategray;
+}
+
+#tempValue {
+  height: 25px;
+  width: 400px;
+}
+
+.checkboxContainer {
+  padding: 5px;
+}
+
+.buttonContainer {
+  padding: 5px;
+}
+
+.outputContainer {
+  background-color: lightgreen;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+li {
+  font-size: 32px;
+  list-style-type: none;
+  padding: 0;
+}
